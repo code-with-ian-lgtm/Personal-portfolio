@@ -45,6 +45,7 @@ header{
     font-size: 36px;
     color: var(--text-color);
     font-weight: 600;
+    background: var(--bg-color);
 }
 
 span{
