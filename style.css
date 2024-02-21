@@ -550,3 +550,18 @@ form .send-btn{
     }
 }
 
+@media (max-width: 370px){
+    :root{
+        --h1-font: 3rem;
+        --h2-font:2rem;
+    }
+    .about-img img{
+        text-align: 100%;
+        width: 100%;
+        height: 300px;
+        max-width: 300px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+}
