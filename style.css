@@ -314,11 +314,28 @@ header.sticky{
     margin-top: 4.2rem;
 }
 
-.row img{
-    height: 50px;
-    width: 50px;
-    border-radius: 28px;
+/* .row img{
+    height: 50%;
+    width: 50%;
+    border-radius: 12px;
     margin-bottom: 1.4rem;
+} */
+.row img {
+    display: block;
+    margin: 0 auto; 
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 12px;
+    margin-bottom: 1.4rem;
+    box-shadow:var(--main-color); 
+    box-shadow: 0 0 5px var(--main-color);
+    transition: all 50s ease-in;
+
+
+} 
+.row img:hover{
+    
+    border-bottom: 2px solid var(--bg-color);
 }
 .row{
     background: #2d343f;
