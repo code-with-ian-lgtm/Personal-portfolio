@@ -18,6 +18,7 @@
 
     <!-- css link -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
     <meta charset="UTF-8">
@@ -48,7 +49,7 @@
 
     <!-- hero -->
     <section class="hero" id="home">
-        <div class="main-content">
+        <div class="main-content" data-aos="fade-in">
             <h4>Hi, There</h4>
             <h1>I`m <span>Stephen Rachillo</span></h1>
             <p>Step into a world where design meets purpose, and spaces come alive with timeless elegance. As passionate interior designers, we weave stories through every project, merging creativity and functionality seamlessly. With an unwavering commitment to innovation, we transform your visions into captivating realities, crafting interiors that inspire and reflect your unique style. Welcome to a journey of refined aesthetics and personalized living experiences.</p>
@@ -72,10 +73,10 @@
 
     <!-- about -->
     <section class="about" id="about">
-        <div class="about-img">
+        <div class="about-img" data-aos="zoom-in-down">
             <img src="/images/personalpic.png" alt="About image">
         </div>
-        <div class="about-text">
+        <div class="about-text" data-aos="data-aos=zoom-in-down">
             <h2>I am interior <span>Designer</span> <br> & Woodwork specialist</h2>
             <div class="exp-area"> 
                 <p class="exp">
@@ -279,6 +280,15 @@
 
         </div>
     </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset:300,
+        duration:1400,
+
+      });
+    </script>
 
 
     <!-- js link -->
