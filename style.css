@@ -303,7 +303,7 @@ header.sticky{
     transform: translateY(-5px scale(1.5));
 }
 .Vbtn {
-    padding-top: 30px;
+    padding-top: 50px;
     background: var(--bg-color);
     display: inline-block;
     padding: 10px 20px;
